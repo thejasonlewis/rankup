@@ -1,0 +1,12 @@
+@import "variables.scss";
+
+#home {
+  .jumbotron {
+    background-image: url("../img/civ5.jpg");
+    background-size: cover;
+
+    .container {
+      background: $t-white;
+    }
+  }
+}
