@@ -1,0 +1,11 @@
+body {
+  position: relative;
+}
+
+.character-object {
+  background-color: blue;
+  color: white;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+}
