@@ -1,15 +1,74 @@
-<html>
+<html ng-app>
     <head>
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/site.css">
     </head>
     <body>
-        hi
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Project name</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <form class="navbar-form navbar-right">
+                    <div class="form-group">
+                        <input type="text" placeholder="Email" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" placeholder="Password" class="form-control">
+                    </div>
+                    <button type="submit" class="btn btn-success">Sign in</button>
+                </form>
+            </div><!--/.navbar-collapse -->
+        </div>
+    </nav>
+
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Rankup</h1>
+            <p>Where you become your own elite player. No BS ranks allowed.</p>
+            <p><a class="btn btn-primary btn-lg" href="groups.html" role="button">Go to Alpha Civ 5 group</a></p>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+            <div class="col-md-4">
+                <h2>Civilization 5</h2>
+                <p> Tired of quiters? Join a Civ 5 Group that matches your play style and compete to be your group's number one player. </p>
+                <p><a class="btn btn-default" href="#" role="button">Go To Alpha Civ Group</a></p>
+            </div>
+            <div class="col-md-4">
+                <h2>League of Legends</h2>
+                <p>Tired of not having the proper teams to compete in ranked? Or even worse always getting stuck with bad teammates with no communication. It's always horrible to see that hard earned gold rank fall to bronze solely because of the bad teammates. Create your own group for League and have your own ranking! Deep down you know you are amazing gamer so prove to the gamers in your inner circle. </p>
+                <p><a class="btn btn-default" href="#" role="button">Coming Soon</a></p>
+            </div>
+            <div class="col-md-4">
+                <h2>Heroes of the Storm</h2>
+                <p> Create a group to keep track of team wins, hero wins, team kills and even compete for your group's MVP.</p>
+                <p><a class="btn btn-default" href="#" role="button">Coming Soon</a></p>
+            </div>
+        </div>
+
+        <hr>
+
+        <footer>
+            <p>The Jason Lewis Company 2015</p>
+        </footer>
+    </div> <!-- /container -->
 
         <script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.13/angular.min.js"></script>
         <script type="text/javascript" src="js/script.js"></script>
     </body>
+
 </html>
